@@ -9,7 +9,7 @@ jobs:
       - name: deploy web page on webserver
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: '~/update-foxes4life.net.sh'
+          command: '~/update-rooot.gay.sh'
           host: '144.91.110.176'
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}

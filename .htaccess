@@ -1,0 +1,8 @@
+<Files .htaccess>
+  Order allow,deny
+  Deny from all
+</Files>
+
+Options -Indexes
+
+RewriteRule ^(\.git/) - [F,L,NC]

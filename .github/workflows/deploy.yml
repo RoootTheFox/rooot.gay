@@ -1,0 +1,18 @@
+name: deploy
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: deploy web page on webserver
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: '~/update-foxes4life.net.sh'
+          host: '144.91.110.176'
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}
+        env:
+          CI: true

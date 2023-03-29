@@ -28,10 +28,9 @@ body {
 
 .me {
   min-height: 169px;
-  
-  width: 500px;
-  max-width: 80%;
-  min-width: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 15px;
   background-color: var(--ctp-mocha-crust);
 

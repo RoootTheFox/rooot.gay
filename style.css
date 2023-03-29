@@ -1,5 +1,5 @@
 /* catppuccin ftw! */
-@import url('https://unpkg.com/@catppuccin/palette@0.1.6/css/catppuccin.css');
+@import url('assets/catppuccin.css');
 
 @font-face {
   font-family: Fredoka One;

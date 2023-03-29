@@ -1,0 +1,48 @@
+/* i hate responsive web design */
+
+:root {
+  --rctv-anim-time: 0.25s;
+}
+
+.title {
+  transition: font-size var(--rctv-anim-time);
+}
+
+.text {
+  transition: font-size var(--rctv-anim-time);
+}
+
+.me-content-container {
+  transition: margin-top var(--rctv-anim-time);
+}
+
+.me {
+  transition: min-height var(--rctv-anim-time);
+}
+
+/* smooth dynamic scaling things idk yes */
+@media only screen and (max-width: 505px) {
+    .title {
+      font-size: 58px;
+    }
+    .text {
+      font-size: 20px;
+    }
+    .me-content-container {
+      margin-top: -2px;
+    }
+    .me {
+      min-height: 115px;
+    }
+}
+
+/* everything below max-width: 413px completely breaks and idk why */
+@media only screen and (max-width: 420px) {
+  .title {
+    font-size: 48px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+

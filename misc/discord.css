@@ -1,0 +1,29 @@
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-teal.theme.css");
+
+@font-face {
+  font-family: Torus;
+  font-weight: bold;
+  src: url(https://raw.githubusercontent.com/ppy/osu-web/c80f5121e4bb0a75a75b0788e9db01f11c08fee1/resources/assets/fonts/torus/Torus-Bold.otf);
+}
+
+@font-face {
+  font-family: Torus;
+  font-weight: normal;
+  src: url(https://raw.githubusercontent.com/ppy/osu-web/c80f5121e4bb0a75a75b0788e9db01f11c08fee1/resources/assets/fonts/torus/Torus-SemiBold.otf);
+}
+
+@font-face {
+  font-family: JetBrainsMono-Regular;
+  src: url(https://raw.githubusercontent.com/JetBrains/JetBrainsMono/55e61fbcc07ebf7c504a56f0b86df423ddf5c0dc/fonts/ttf/JetBrainsMono-Regular.ttf)
+}
+
+:root {
+    --font-primary: "Torus" !important;
+    --font-display: "Torus" !important;
+    --font-code: "JetBrainsMono-Regular",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace
+}
+
+[class^="imageAccessory"] {
+    left: unset;
+    right: 6px !important;
+}

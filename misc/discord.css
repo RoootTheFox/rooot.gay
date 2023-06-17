@@ -28,3 +28,8 @@
     left: unset;
     right: 6px !important;
 }
+
+[aria-label^="Add Super Reaction"],
+#message-add-reaction-1 {
+    display: none;
+}

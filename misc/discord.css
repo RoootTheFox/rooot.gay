@@ -1,4 +1,5 @@
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css");
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css") (prefers-color-scheme: dark);
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-latte-pink.theme.css") (prefers-color-scheme: light);
 
 @font-face {
   font-family: Torus;

@@ -4,6 +4,7 @@
 @font-face {
   font-family: Fredoka One;
   src: url(/assets/fonts/fredokaone/FredokaOne-Regular.ttf);
+  font-display: swap;
 }
 
 :root {

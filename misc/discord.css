@@ -32,3 +32,8 @@
 #message-add-reaction-1 {
     display: none;
 }
+
+/* disables mirroring the own camera. useful for OBS virtual cam */
+[class*="mirror_"] {
+    transform: unset;
+}

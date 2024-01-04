@@ -175,6 +175,15 @@ body {
   color: var(--ctp-mocha-teal);
 }
 
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+hr {
+  color: var(--ctp-mocha-surface1);
+}
 /* i hate responsive web design */
 
 /* smooth dynamic scaling things idk yes */

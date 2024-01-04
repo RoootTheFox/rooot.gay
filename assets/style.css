@@ -71,6 +71,12 @@ body {
   position: relative;
 }
 
+.pronouns {
+  color: var(--ctp-mocha-red);
+  font-size: 18px;
+  margin-top: 80px;
+}
+
 .title-primary:hover {
   color: var(--accent-color-secondary);
 }

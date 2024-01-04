@@ -37,14 +37,6 @@ body {
 .box {
   width: fit-content;
   min-width: fit-content;
-  min-height: 35px;
-
-  padding-left: 10px;
-  padding-right: 10px;
-
-  border-radius: 15px;
-  background-color: var(--ctp-mocha-crust);
-
   text-align: center;
 }
 

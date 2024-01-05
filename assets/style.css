@@ -71,8 +71,9 @@ body {
   position: relative;
 }
 
+/* really awful solution */
 .title-crack {
-  margin-left: 15px;
+  margin-left: 16.5px;
 }
 
 .pronouns {
@@ -143,6 +144,10 @@ body {
   color: var(--ctp-mocha-text);
   font-size: 26px;
   transition: font-size var(--rctv-anim-time);
+}
+
+.ta-center {
+  text-align: center;
 }
 
 .center-h {

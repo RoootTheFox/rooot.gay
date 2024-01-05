@@ -71,6 +71,10 @@ body {
   position: relative;
 }
 
+.title-crack {
+  margin-left: 15px;
+}
+
 .pronouns {
   color: var(--ctp-mocha-red);
   font-size: 18px;

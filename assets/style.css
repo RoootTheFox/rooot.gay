@@ -146,8 +146,26 @@ body {
   transition: font-size var(--rctv-anim-time);
 }
 
+/* i need to start using LESS or something */
+.socials a:visited { color: var(--ctp-mocha-text); }
+.socials a { color: var(--ctp-mocha-text); }
+
+.socials {
+  color: var(--ctp-mocha-text);
+  font-family: monospace;
+  font-size: 16px;
+  transition: font-size var(--rctv-anim-time);
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.socials p {
+  text-align: left;
+}
+
 .ta-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .center-h {

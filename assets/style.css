@@ -148,7 +148,6 @@ body {
 
 /* i need to start using LESS or something */
 .socials a:visited { color: var(--ctp-mocha-text); }
-.socials a { color: var(--ctp-mocha-text); }
 
 .socials {
   color: var(--ctp-mocha-text);
@@ -179,27 +178,31 @@ body {
 }
 
 .red {
-  color: var(--ctp-mocha-red);
+  color: var(--ctp-mocha-red) !important;
+}
+
+.maroon {
+  color: var(--ctp-mocha-maroon) !important;
 }
 
 .peach {
-  color: var(--ctp-mocha-peach);
+  color: var(--ctp-mocha-peach) !important;
 }
 
 .yellow {
-  color: var(--ctp-mocha-yellow);
+  color: var(--ctp-mocha-yellow) !important;
 }
 
 .green {
-  color: var(--ctp-mocha-green);
+  color: var(--ctp-mocha-green) !important;
 }
 
 .sky {
-  color: var(--ctp-mocha-sky);
+  color: var(--ctp-mocha-sky) !important;
 }
 
 .teal {
-  color: var(--ctp-mocha-teal);
+  color: var(--ctp-mocha-teal) !important;
 }
 
 footer {

@@ -146,6 +146,10 @@ body {
   transition: font-size var(--rctv-anim-time);
 }
 
+.small-text {
+  font-size: 16px;
+}
+
 /* i need to start using LESS or something */
 .socials a:visited { color: var(--ctp-mocha-text); }
 

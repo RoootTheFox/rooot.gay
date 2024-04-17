@@ -218,6 +218,16 @@ footer {
 hr {
   color: var(--ctp-mocha-surface1);
 }
+
+/* 88x31 buttons */
+img[src*="88x31"] {
+  image-rendering: auto;
+  image-rendering: optimizeSpeed;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+}
+
 /* i hate responsive web design */
 
 /* smooth dynamic scaling things idk yes */

@@ -211,6 +211,10 @@ body {
   color: var(--ctp-mocha-teal) !important;
 }
 
+.blue {
+  color: var(--ctp-mocha-blue) !important;
+}
+
 .content {
   display: table-row;
   height: 100%;

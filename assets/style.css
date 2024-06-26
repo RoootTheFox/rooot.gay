@@ -224,7 +224,7 @@ body {
 
 /* if the window is too small, the footer overlaps the content */
 footer {
-    display: table-row;
+    display: table-row-group;
     width: 100%;
 }
 

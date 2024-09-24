@@ -29,7 +29,7 @@ body {
     display: table;
     width: 100%;
     min-height: 100vh;
-    background-color: #000;
+    background-color: var(--ctp-mocha-base);
 }
 
 .text {
@@ -58,13 +58,15 @@ body {
     transition: min-height var(--rctv-anim-time);
 }
 
+/*
 .subtle-glow {
     text-shadow: 0 0 9px;
 }
 
 .glowo {
-    text-shadow: 0 0 16px; /* glow uwu */
+    text-shadow: 0 0 16px; /* glow uwu
 }
+*/
 
 .title {
     font-size: 69px;

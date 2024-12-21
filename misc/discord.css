@@ -1,4 +1,5 @@
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css");
+@import url("https://github.com/refact0r/system24/raw/main/theme/flavors/catppuccin-mocha.theme.css");
+/*@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css");
 
 @font-face {
   font-family: Torus;
@@ -32,8 +33,65 @@
 #message-add-reaction-1 {
     display: none;
 }
+*/
 
 /* disables mirroring the own camera. useful for OBS virtual cam */
 [class*="mirror_"] {
     transform: unset;
+}
+
+/* new stuff ! */
+
+[class^="effectsWrapper"] {
+    display: none;
+}
+:root {
+    --font: "Departure Mono" !important;
+    --font-primary: "Departure Mono" !important;
+    --font-display: "Departure Mono" !important;
+    --font-code: "Departure Mono" !important;
+    --pink: #f5c2e7 !important;
+    --pink-1: #ee91d5 !important;
+    --pink-2: #e765c4 !important;
+    --acc-0: var(--pink) !important;
+    /* main accent color. */
+    --acc-1: var(--pink-1) !important;
+    /* color of accent buttons when hovered. */
+    --acc-2: var(--pink-2) !important;
+    /* color of accent buttons when clicked. */
+    --red: #f38ba8;
+    --dnd-dot: var(--red);
+    --status-danger-background: var(--red) !important;
+}
+/* you can shove your shop up your ass */
+li.channel_c91bad.container_d91ad9:has(a[data-list-item-id*="_shop"]) {
+    display: none;
+    user-select: none;
+}
+/* "play again" fuck off */
+div.container_e5a9ed:has(div.itemContainer_e5a9ed > .clickable_e5a9ed > .iconCon
+tainer_e5a9ed) {
+    display: none;
+    user-select: none;
+}
+
+/* fix colors bcs catpussin thingy stupid */
+[class*=colorable_][class*=red_], .colorable_ef18ee.red_ef18ee.active_ef18ee, .c
+olorable_ef18ee.red_ef18ee:hover {
+    background-color: var(--red);
+}
+/* status indicators */
+[fill="#f23f43"] { fill: var(--red); }
+[fill="#f0b232"] { fill: var(--yellow); }
+[fill="#23a55a"] { fill: var(--green); }
+
+/* move the gif thing back to the right. autism */
+.imageAccessory_d4597d {
+    left: unset;
+    right: 6px;
+}
+/* fix discord fucking up their own shit because they are fucking retarded */
+/* (they fucked the margin shit in the fullscreen stream view lmfao) */
+html:not(.visual-refresh_a4d4d9) .sidebar_a4d4d9.hidden_a4d4d9 {
+    width: 0px !important;
 }

@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: Departure Mono;
-    src: url(/assets/fonts/departuremono/DepartureMono-Regular.woff2) format('woff2')
-         url(/assets/fonts/departuremono/DepartureMono-Regular.woff) format('woff')
+    src: url(/assets/fonts/departuremono/DepartureMono-Regular.woff2) format('woff2'),
+         url(/assets/fonts/departuremono/DepartureMono-Regular.woff) format('woff'),
          url(/assets/fonts/departuremono/DepartureMono-Regular.ttf) format('truetype');
     font-display: swap;
 }
@@ -175,16 +175,26 @@ body {
     color: var(--ctp-mocha-text);
 }
 
+.this-svg-does-not-exist {
+    position: absolute;
+    height: 0px;
+    user-select: none;
+    pointer-events: none;
+}
+
 .socials {
     color: var(--ctp-mocha-text);
     font-family: Departure Mono, monospace;
-    font-size: 16.5px;
-    font-smooth: never;
-    -webkit-font-smoothing : none;
+    font-size: 22px;
+    filter: url(#nukeantialiasing);
     transition: font-size var(--rctv-anim-time);
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
     margin-top: 14px;
+}
+
+.s-center {
+    width: max-content;
 }
 
 .socials p {
@@ -294,5 +304,10 @@ img[src*="88x31"] {
 
     .text {
         font-size: 18px;
+    }
+
+    .socials {
+        font-size: 16.5px;
+        filter: unset; /* looks ass otherwise (sometimes) */
     }
 }

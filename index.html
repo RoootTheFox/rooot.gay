@@ -9,6 +9,16 @@
     <meta name="theme-color" content="#f5c2e7">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- https://stackoverflow.com/a/66657150 -->
+    <svg class="this-svg-does-not-exist"width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+          <filter id="nukeantialiasing">
+              <feComponentTransfer>
+                  <feFuncA type="discrete" tableValues="0 1"/>
+              </feComponentTransfer>
+          </filter>
+      </defs>
+    </svg>
   </head>
   <body>
     <div class="content">
@@ -29,7 +39,7 @@
           <p class="text ta-center sky glowo">deranged catgirl, mediocre programmer, professional meowing creature</p>
         </div>
       </div>
-      <div class="center-h">
+      <div class="center-h s-center">
         <div class="content-container socials">
           <p class="ta-center">---- BEGIN SOCIALS BLOCK ----</p>
           <p>github: <a class="red" target="_blank" href="https://github.com/RoootTheFox">roootthefox</a></p>

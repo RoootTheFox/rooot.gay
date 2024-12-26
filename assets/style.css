@@ -310,4 +310,11 @@ img[src*="88x31"] {
         font-size: 16.5px;
         filter: unset; /* looks ass otherwise (sometimes) */
     }
+
+    /* make filter exist on phone screens/hidpi */
+    @media (resolution >= 2dppx) {
+        .socials {
+            filter: url(#nukeantialiasing) !important; /* looks ass otherwise (sometimes) */
+        }
+    }
 }

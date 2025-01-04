@@ -27,6 +27,11 @@
     padding: 0;
 }
 
+.status {
+    border: none;
+    width: 727px; /* no. */
+}
+
 .invisible {
     display: none;
     height: 0px;

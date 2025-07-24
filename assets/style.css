@@ -279,6 +279,9 @@ img[src*="88x31"] {
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
 }
+.gone {
+    filter: grayscale(0.4) sepia(0.3) brightness(0.6) saturate(0.3);
+}
 
 /* i hate responsive web design */
 

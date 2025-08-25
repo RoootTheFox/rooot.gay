@@ -272,7 +272,7 @@ hr {
 }
 
 /* 88x31 buttons */
-img[src*="88x31"] {
+img[src*="88x31"], img[width="88"][height="31"] {
     image-rendering: auto;
     image-rendering: optimizeSpeed;
     image-rendering: crisp-edges;

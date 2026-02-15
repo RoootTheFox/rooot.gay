@@ -302,6 +302,10 @@ img[src*="88x31"], img[width="88"][height="31"] {
     .me {
         min-height: 115px;
     }
+
+    .status {
+        display: none;
+    }
 }
 
 /* everything below max-width: 413px completely breaks and idk why */
